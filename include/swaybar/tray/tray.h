@@ -1,6 +1,7 @@
 #ifndef _SWAYBAR_TRAY_TRAY_H
 #define _SWAYBAR_TRAY_TRAY_H
 
+#define _POSIX_C_SOURCE 200809L
 #include "config.h"
 #ifdef HAVE_SYSTEMD
 #include <systemd/sd-bus.h>
